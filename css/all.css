@@ -1,0 +1,188 @@
+.banner {
+    background-image: url('../image/banner.png');
+    /* max-width: 1920px; */
+    width: 100vw;
+    /* height: 100vh; */
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    padding-top: 356px;
+    padding-bottom: 268px;
+    margin-bottom: 64px;
+}
+
+.banner_text{
+    color: white;
+    margin-bottom: 48px;
+}
+
+.banner_text > h1{
+    font-size: 80px;
+    line-height: 94px;
+    font-style: italic; 
+}
+
+.banner_text > .here, .brand_text > .brand_slogan{
+    font-size: 24px;
+    line-height: 28px;
+    font-style: italic; 
+}
+
+.banner_text > p{
+    font-size: 24px;
+    line-height: 36px;
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.icons > img{
+    margin: 0 8px;
+}
+
+h2{
+    font-size: 64px;
+    line-height: 75px;
+    font-style: italic;
+    margin-top: 0;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-bottom: 56px;
+}
+
+.about_main{
+    border-bottom: 1px solid black;
+}
+
+.about > .about_main > p, .about_text > p{
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    font-style: italic; 
+    font-weight: bold;
+}
+
+.about > img{
+    width: 384px;
+    height: 384px;
+    margin-bottom: 24px;
+}
+
+.dot{
+    display: block;
+    width: 22px;
+    height: 22px;
+    background-color: #891818;
+    border-radius: 999px;
+    margin-right: 16px;
+
+}
+
+.about_text{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.brands{
+    background-color: black;
+    color: white;
+    padding: 64px 0 160px 0;
+    text-align: center;
+    margin-bottom: 64px;
+}
+
+.brand_photo > img{
+    max-width: 792px;
+    height: 416px;
+}
+
+.brand_subphoto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.brand_subphoto > img{
+    max-width: 588px;
+    height: 416px;
+    margin: 40px 12px;
+}
+
+.brand_slogan{
+    margin-bottom: 32px;
+}
+
+.brand_description{
+    margin-bottom: 68px;
+}
+
+.others{
+    text-align: center;
+    margin-bottom: 104px;
+}
+
+.others > h2{
+    margin-top: 0;
+    margin-bottom: 24px;
+}
+
+.others_text{
+    margin-bottom: 56px;
+}
+
+.others_text > p {
+    font-size: 20px;
+    line-height: 30px;
+    font-style: italic;
+}
+
+.others_photo1, .others_photo2, .others_photo3{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 56px;
+}
+
+.others_detail1 > img {
+    height: 528px;
+    width: 384px;
+    margin: 0 12px;
+
+}
+
+.others_detail2 > img {
+    width: 588px;
+    height: 424px;
+    margin: 0 12px;
+}
+
+.others_detail3 > img {
+    width: 384px;
+    height: 280px;
+    margin: 0 12px;
+}
+
+.others_detail1 > p, .others_detail2 > p, others_detail3 > p{
+    font-size: 20px; 
+    line-height: 28px;
+}
+
+.footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 64px 0 80px 0;
+}
+
+.footer > p{
+    font-size: 24px;
+    line-height: 33px;
+    font-style: italic;
+}
