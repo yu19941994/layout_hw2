@@ -84,7 +84,7 @@ table {
     font-style: italic; 
 }
 
-.banner_text > .here, .brand_text > .brand_slogan{
+.banner_text .here, .brand_text > .brand_slogan{
     font-size: 24px;
     line-height: 28px;
     font-style: italic; 
